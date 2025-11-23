@@ -33,51 +33,36 @@ Everything is dynamic and driven from an Excel rubric.
 <img width="742" height="664" alt="image" src="https://github.com/user-attachments/assets/657ac25a-bafa-4aba-bd11-b0aefedbdfa0" />
 
 
-📂 Project Structure
-Nirmaan-AI/
-│── main.py                 # FastAPI backend
-│── scorer.py               # NLP + rule-based scoring logic
-│── index.html              # Frontend client
-│── requirements.txt
-│
-│── data/
-│     ├── rubric.xlsx       # Real rubric (input)
-│     └── rubric.json       # Auto-generated normalized rubric
-│
-│── scripts/
-│     └── load_rubric.py    # Excel → JSON rubric converter
-│
-└── README.md
 
 ⚙️ Features
-🧠 NLP-Powered Scoring
+  🧠 NLP-Powered Scoring
 
-Sentence-BERT embeddings
+    Sentence-BERT embeddings
 
-VADER sentiment
+    VADER sentiment
 
-Filler-word clarity scoring
+    Filler-word clarity scoring
 
-Grammar check (light heuristic)
+    Grammar check (light heuristic)
 
 📊 Excel-Based Rubric
 
-Supports flexible columns:
+    Supports flexible columns:
 
-weight
+    weight
 
-must_keywords
+    must_keywords
 
-good_keywords
+    good_keywords
 
-min_words / max_words
-…and more.
+    min_words / max_words
+   
 
 🔥 FastAPI Backend
 
-/score → analyze transcript
+    /score → analyze transcript
 
-/health → server check
+    /health → server check
 
 🖥️ Frontend UI
 
@@ -173,4 +158,5 @@ data/rubric.xlsx
 
 Built as part of Nirmaan AI Internship Assignment
 By: Durgesh (Night-E-ye)
+
 
