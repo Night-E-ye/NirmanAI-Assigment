@@ -29,9 +29,9 @@ Everything is dynamic and driven from an Excel rubric.
 
 🖼️ Screenshot Preview
 
-(Add your screenshots later)
+<img width="1874" height="510" alt="image" src="https://github.com/user-attachments/assets/5243957c-02c2-45eb-b131-c8fa414cd898" />
+<img width="742" height="664" alt="image" src="https://github.com/user-attachments/assets/657ac25a-bafa-4aba-bd11-b0aefedbdfa0" />
 
-[ Upload score UI screenshot here ]
 
 📂 Project Structure
 Nirmaan-AI/
@@ -173,3 +173,4 @@ data/rubric.xlsx
 
 Built as part of Nirmaan AI Internship Assignment
 By: Durgesh (Night-E-ye)
+
